@@ -33,9 +33,29 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
-# vercel
-.vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# Antigravity / Gemini (Google DeepMind)
+AGENTS.md
+.agents/
+.gemini/
+
+# Claude / Anthropic
+CLAUDE.md
+.claude/
+
+
+
+
+# Generic AI context/rules files
+.ai/
+.rules
+.context
+
+# ── Project AI/Planning files ────────────────────────────────────────────────
+# Internal planning docs generated during development — not needed in production
+requirements.md
